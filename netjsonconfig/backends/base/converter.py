@@ -71,7 +71,7 @@ class BaseConverter(object):
     def to_intermediate(self):
         """
         Converts the NetJSON configuration dictionary (``self.config``)
-        to intermediate data structure (``self.intermediate_datra``)
+        to intermediate data structure (``self.intermediate_data``)
         """
         result = OrderedDict()
         # copy netjson dictionary
